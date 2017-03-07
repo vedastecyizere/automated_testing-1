@@ -70,4 +70,11 @@ RSpec.describe Calculator do
       expect(calculator.power(5,2)).to eq(25)
     end
   end 
+
+  describe 'reverse' do 
+    it 'should return a reversed string' do 
+     calculator = Calculator.new 
+     expect(calculator.reverse(apple)).to eq(elppa)
+    end
+  end 
 end
